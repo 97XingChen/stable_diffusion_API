@@ -1,0 +1,5 @@
+webuiapi==0.9.3
+Pillow==9.5.0
+requests==2.31.0
+jsonlines==3.1.0
+pandas==2.0.3

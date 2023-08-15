@@ -1,0 +1,19 @@
+{
+  "host": "127.0.0.1",
+  "port": 7860,
+  "ControlnetOption":{
+    "Canny":[{"control_v11p_sd15_canny [d14c016b]": ["canny","invert"]}],
+    "Depth": [{"control_v11f1p_sd15_depth [cfd03158]":["depth","depth_leres","depth_leres++","depth_zoe"] }],
+    "Normal": [{"control_v11p_sd15_normalbae [316696f1]": ["normal_map","normal_bae"]}],
+    "OpenPose": [{"control_v11p_sd15_openpose [cab727d4]": ["openpose","openpose_face","openpose_faceonly","openpose_full","openpose_hand"]}],
+    "MLSD": [{"control_v11p_sd15_mlsd [aca30ff0]": ["mlsd","invert"]}],
+    "Lineart":[{"control_v11p_sd15_lineart [43d4be0d]": ["lineart_anime","lineart_anime_denoise","lineart_coarse","lineart_standard","lineart","invert"]},
+      {"control_v11p_sd15s2_lineart_anime [3825e83e]": ["lineart_anime","lineart_anime_denoise","lineart_coarse","lineart_standard","lineart","invert"]}],
+    "SoftEdge": [{"control_v11p_sd15_softedge [a8575a2a]": ["hed","hed_safe","pidinet","pidinet_safe"]}],
+    "Scribble": [{"control_v11p_sd15_scribble [d4ba51ff]": ["scribble_hed","pidinet_scribble","scribble_xdog"]}],
+    "Shuffle": [{"control_v11p_sd15_seg [e1f51eb9]": ["shuffle"]}],
+    "Tile": [{"control_v11f1e_sd15_tile [a371b31b]": ["tile_resample","tile_colorfix","tile_colorfix+sharp"]}],
+    "inpaint": [{"control_v11p_sd15_inpaint [ebff9138]": ["inpaint_only","inpaint_only+lama","inpaint"]}]
+  }
+}
+
